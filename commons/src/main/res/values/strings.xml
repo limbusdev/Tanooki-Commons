@@ -640,13 +640,14 @@
 
     <!-- About -->
     <string name="about">About</string>
-    <string name="website_label">For the source codes visit</string>
-    <string name="email_label">Send your feedback or suggestions to</string>
-    <string name="upgrade_to_pro">Upgrade to Pro</string>
-    <string name="more_apps_underlined"><u>More apps</u></string>
-    <string name="more_apps_from_us_underlined"><u>More apps from us</u></string>
+    <string name="label_source" translatable="false">Tanooki File Manager is a fork of Simple File Manager from the Simple Mobile Tools app suite. Like its origin it is open source and licensed under GPLv3. Inspect the source code on GitHub:</string>
+    <string name="label_website" translatable="false">Visit me at my website:</string>
+    <string name="label_feedback" translatable="false">Feel free to enter feedback and suggestions in the repository\'s issue tracker.</string>
+    <string name="upgrade_to_pro">Get original Simple File Manager Pro</string>
+    <string name="more_apps_underlined" translatable="false"><u>More apps</u></string>
+    <string name="more_apps_from_us_underlined" translatable="false"><u>Tanooki File Manager is forked from Simple File Manager. See the whole Simple Mobile Tools app suite:</u></string>
     <string name="third_party_licences_underlined"><u>Third party licences</u></string>
-    <string name="invite_friends_underlined"><u>Invite friends</u></string>
+    <string name="label_share" translatable="false"><u>Share</u></string>
     <string name="share_text">Hey, come check out %1$s at %2$s</string>
     <string name="invite_via">Invite via</string>
     <string name="rate_us_underlined"><u>Rate us</u></string>
@@ -654,14 +655,14 @@
     <string name="donate">Donate</string>
     <string name="donate_underlined"><u>Donate</u></string>
     <string name="follow_us">Follow us</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © limbusdev %2$d</string>
     <string name="additional_info">Additional info</string>
     <string name="app_version">App version: %s</string>
     <string name="device_os">Device OS: %s</string>
     <string name="donate_please">
         <![CDATA[
             Hello,<br><br>
-            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
+            hope you are enjoying the app. It contains no ads, please support the development of the upstream project Simple Mobile Tools by purchasing the <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> app.<br><br>
             Thank you!
         ]]>
     </string>
@@ -731,7 +732,7 @@
 
     <!-- FAQ -->
     <string name="frequently_asked_questions">Frequently asked questions</string>
-    <string name="before_asking_question">Before you ask a question, please first read the</string>
+    <string name="before_asking_question">Before you ask a question, please first read the FAQ:</string>
     <string name="faq_1_title_commons">How come I don\'t see this apps widget on the list of widgets?</string>
     <string name="faq_1_text_commons">It is most likely because you moved the app on an SD card. There is an Android system limitation which hides the given app widgets
         in that case. The only solution is to move the app back onto the Internal Storage via your device settings.</string>
@@ -803,6 +804,8 @@
     <string name="notice">This app uses the following third party libraries to make my life easier. Thank you.</string>
     <string name="third_party_licences">Third party licences</string>
     <string name="kotlin_title">Kotlin (programming language)</string>
+    <string name="smt_file_manager_title" translatable="false">SimpleMobileTools - File Manager (origin of this fork)</string>
+    <string name="smt_commons_title" translatable="false">SimpleMobileTools - Commons (origin of this fork)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoomable imageviews)</string>
     <string name="glide_title">Glide (image loading and caching)</string>
     <string name="picasso_title">Picasso (image loading and caching)</string>
